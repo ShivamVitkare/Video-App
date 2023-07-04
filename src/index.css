@@ -1,3 +1,8 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+*{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,23 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.box{
+  background-color: #161617;
+}
+.pageTilte{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+@media(max-width:1000px){
+.pageTilte{
+  font-size: 6.4vw;
+}
 }
